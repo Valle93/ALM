@@ -7,6 +7,8 @@ public class Main {
 
         while(true){
 
+                // OYOKEOGKOGKGOKGEOKGOEG
+
             System.out.println("Skriv in första talet");
             int first = scanner.nextInt();
 
@@ -15,7 +17,7 @@ public class Main {
 
             System.out.println("Välj räknesätt *, /, +, -");
             String arithmetic = scanner.nextLine();
-            if(arithmetic == "*"){
+            if(arithmetic == ("*")){
 
                 System.out.println(first * second);
             }else if(arithmetic == "/") {
